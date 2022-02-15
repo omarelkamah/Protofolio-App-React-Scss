@@ -1,0 +1,14 @@
+.App {
+    height: 100vh;
+
+    .sectionsContainer {
+        width: 100%;
+        top: 70px;
+        position: relative;
+        scroll-behavior: smooth;
+
+        > * {
+            height: calc(100vh - 70px);
+        }
+    }
+}
